@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="1">
+ <editorsettings>
+  <export target="map_bound.csv" format="csv"/>
+ </editorsettings>
+ <tileset firstgid="1" name="walls" tilewidth="16" tileheight="16" tilecount="64" columns="8">
+  <image source="../tài nguyên Py/mystic_woods_free_2.2/sprites/tilesets/walls/walls.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="65" name="wooden_door_b" tilewidth="16" tileheight="16" tilecount="2" columns="2">
+  <image source="../tài nguyên Py/mystic_woods_free_2.2/sprites/tilesets/walls/wooden_door_b.png" width="32" height="16"/>
+ </tileset>
+ <tileset firstgid="67" name="grass" tilewidth="16" tileheight="16" tilecount="1" columns="1">
+  <image source="../tài nguyên Py/mystic_woods_free_2.2/sprites/tilesets/grass.png" width="16" height="16"/>
+ </tileset>
+ <tileset firstgid="68" name="flooring" tilewidth="16" tileheight="16" tilecount="15" columns="5">
+  <image source="../tài nguyên Py/mystic_woods_free_2.2/sprites/tilesets/floors/flooring.png" width="80" height="48"/>
+ </tileset>
+ <tileset firstgid="83" name="objects" tilewidth="16" tileheight="16" tilecount="208" columns="16">
+  <image source="../tài nguyên Py/mystic_woods_free_2.2/sprites/objects/objects.png" width="256" height="208"/>
+ </tileset>
+ <tileset firstgid="291" name="TX Props" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="../tài nguyên Py/Pixel Art Top Down - Basic/Texture/TX Props.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1315" name="Interiors_free_16x16" tilewidth="16" tileheight="16" tilecount="1424" columns="16">
+  <image source="../tài nguyên Py/Modern_Interiors_Free_v2.2/Modern tiles_Free/Interiors_free/16x16/Interiors_free_16x16.png" width="256" height="1424"/>
+ </tileset>
+ <tileset firstgid="2739" name="plains" tilewidth="16" tileheight="16" tilecount="72" columns="6">
+  <image source="../tài nguyên Py/mystic_woods_free_2.2/sprites/tilesets/plains.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="2811" name="fences" tilewidth="16" tileheight="16" tilecount="16" columns="4">
+  <image source="../tài nguyên Py/mystic_woods_free_2.2/sprites/tilesets/fences.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="2827" name="spr_grass_tileset" tilewidth="16" tileheight="16" tilecount="870" columns="30">
+  <image source="../tài nguyên Py/Pixelarium - GrassLands - Free Version/Pixelarium - GrassLands - Free Version/Pack content/Sprites/Tileset/spr_grass_tileset.png" width="480" height="464"/>
+ </tileset>
+ <tileset firstgid="3697" name="Outdoor_Decor_Free" tilewidth="16" tileheight="16" tilecount="84" columns="7">
+  <image source="../tài nguyên Py/Cute_Fantasy_Free/Cute_Fantasy_Free/Outdoor decoration/Outdoor_Decor_Free.png" width="112" height="192"/>
+ </tileset>
+ <tileset firstgid="3781" name="player" tilewidth="16" tileheight="16" tilecount="540" columns="18">
+  <image source="../tài nguyên Py/mystic_woods_free_2.2/sprites/characters/player.png" width="288" height="480"/>
+ </tileset>
+ <layer id="1" name="grass" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6HzVv+eJmJfSFg1VVVVVVX19QC8vIik
+  </data>
+ </layer>
+ <layer id="2" name="street" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztmMEOwiAMhjnz/o+CzqAz6pPJQRKChZZSXIk06W10fB1tf2YMbt4acw1+s4SHDzIX9nZC/D4BR8w1xWfk2II/M39NyKE595DlHBsj95Qai34elB+fMXDOjoYa8wLv8LZcU9EvE3HU1o+eQYvjO8YIDvdZh/UH7RzUdf/CIaW/juaQmg1aOGqzgaK/tHD09svFsTgk3i8VJ91fTTtTOXak91LnbQ9HrT9K9V3qd2/leAB9EdLOGAcUh6PHJXUiFKtXl7TWYX4+OfdDSY6oV6j/hErnc2ewSHG4ZP+t9VFiod7vS7nzjHg5Qy8H10scUjEhw/pFrYdo4uAYxp7qUk6eWrXuL+wNxHOoJw==
+  </data>
+ </layer>
+ <layer id="3" name="floor" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztz0sKgDAMRdHszS9+0P2vxg4DUmpESVrugTfILFcEuOvThpcbHf7NWQyb0mZ1rw7/5lg6trRdYnZolqbaOw610+fNoicdNWilo6SVDgAA8K/O+4GP0BELHbHQAcRzAd0JHIA=
+  </data>
+ </layer>
+ <layer id="4" name="Tile Layer 2" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0jsKgEAMBcCcxV+hXmLvfykFkQWLLUQMygy8It0jSQRPGvf0NzMl9IU3dVH/ne9Zot5vSO7yd3Mc+z5TLvOaVw0AAABo2ACcXQTM
+  </data>
+ </layer>
+ <layer id="5" name="Tile Layer 1" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1EsKgDAMRdHgbyDqwLoj978nCyp0oEibqlHugTdrIK9FRWwofMrEVC/se6ZVzHbZttCjh60eo4/b0kTOWuoRGiLPf7VHLet/an+/6faN0lz16B/ZQmRWzoffylGs3j8AAAAAAPiHBWOkAjA=
+  </data>
+ </layer>
+ <layer id="6" name="decor" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzFWDlPVFEUvokJDJAZW0XHJVq5VHYCGrXUVv+AcSkFCq0MVFqZGBs7jQ61BVBhmEIp3Au1cIFEf4Zo8By5J++bj3PvfQQST3Ly3l3PvrwXQj1YGAyPa24NTwU7gjMw90rwNe17J/i+7qXbBCgH8uTxPCs4JzgPc18EvwpOtaq5ZcGVBL1njfXnjf4QLsr7pTh+IM9ZmZsTvDYQwvWBjXwidpsb55inFM8vBF8KLglOAt8luB2f88JrN/I9JfxekfercTzTqPbfFBluOXJ4dy8IPs/QRp4V2sL3R3l+Evwc5y7TGc/HFO7F55Lw+qHhbIhrBndEhrs15Xgj+JbmfomtVpvr78xzp5W2gc2jPbcKZ4gWyoE+/03we+i1yy45u3sT/pKCnM+NiD+N9q+/D/eFsEdwr2C7r3ffCbIbyoE+b3HJdunE+elWdb4UX91oQ/U9zg8/ZO1ns7r/vMhwIcpxRHg/KnhM8DjJcS4jB/u8gtklBd1mZpFoqBycH9b0PNhnrb96Pym8jwiOCo6RHBy/KAf7PIP6Q+r8svCz0qz2YUzndPVbzvwBXewUPd8nv+OxAvtJHX1Owz18Xnk0f59s+TGd09Ww7N9DfD4sjBXYTzhfdeAM6tT4S51nO2HNTu1JwaMq9nrGBmxDTw7kGXWKfGFdsPNsJ6zZqT2HWiRvWJdzdbBXDh0fkL0HI1+eDVGO6Uw+TPUSdj6XD1J7lB7ea3KukRw6PiV7Twsedni0HKnvbVjnOpwDL75YH0YDde/lDJNzx1DvORur/c7Gu7nXzPku1wPM/bbGcqR6DwW2KfsZ10e7ezzOYw3nu1K+i2sGXm/IgDE1lfBTk9X0j/xjHHh2/DcffJ0HurNN9xhg7ue6jL1XDtTncn2WxQHSL9nR4zWESj+2ZjrC3M+2sd7LdIU6K32LYTwugi7snNkvlftxr+3x6rDpCO3r9TAKpivUmfm59+2FtJ9o/wU+ZvRLfTLmKwW2OesR7ev1MHredIU6s3vYhty/ePzVhVK+qn9TmYZnQ0/Xxn+ql87RSMVOCfk+7x/CRPQVtCHXKOVx0dE/+yLHLMuRqscpn0ZAW3p132iMUx7eJ+P9Tm7G3pl90WyFeQ1pMJhe69QMtiXLnvLzUeFjDHjheqM9K/tiya/YH0yvqbyE/HE9Y9lLcdaQvmNAcHCo933c+Xfh3YVxg/6Avlv6tvIgpUOLk83kIYYJxw+RxnaCp0Pvu115yuUQ699KucVobAX1jlwNcGkG/3vKi/uU7TyaJTuX1rEG1On5vRyvwHFfl+b/gtI/mM3AX2sPAQ0=
+  </data>
+ </layer>
+ <layer id="8" name="boundary" width="50" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztzwENACAMwDAU4N/DTWKjPGsyAZt7zizpd31Y+rD0YenD0oelD0sflj4sfVj6sPRh6cPSh2Xbx4YeWPZwvQ==
+  </data>
+ </layer>
+</map>
